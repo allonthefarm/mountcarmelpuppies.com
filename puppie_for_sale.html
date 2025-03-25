@@ -1,0 +1,46 @@
+</div>
+<div class="amb_more_images_post">
+      <div class="amb_more_photo_button">
+            <button class="amb-button-1" onclick="open_more_puppies_photos()">More Photos</button>
+              <div id="amb_more_puppies_photos_lightbox" class="amb_more_puppies_photos_lightbox_css">
+                   <span class="amb_more_puppie_photos_close_cursor" onclick="close_more_puppies_photos()">&times;</span>
+                        <div class="amb_more_puppies_photos_lightbox_content_css">
+                               [wpbb post:pods_template template='custom' custom_template='{@litter.litter_photos}']
+                       </div>
+               </div>
+       </div>
+</div>
+
+
+
+
+<div class="amb_more_images_post">
+    <div class="amb_more_photo_button">
+      [wpbb post:pods_template template='amb_more_photo_button']
+    </div>
+           <div id="amb_more_puppies_photos_lightbox" class="amb_more_puppies_photos_lightbox_css">
+                <span class="amb_more_puppie_photos_close_cursor" onclick="close_more_puppies_photos()">&times;</span>
+                     <div class="amb_more_puppies_photos_lightbox_content_css">
+                            [wpbb post:pods_template template='custom' custom_template='{@litter.litter_photos}']
+                    </div>
+            </div>
+    
+</div>
+
+
+
+
+
+
+
+<div class="amb_more_images_post">
+    <div class="amb_more_photo_button">
+          <button class="amb-button-1" onclick="open_more_puppies_photos()">More Photos</button>
+            <div id="amb_more_puppies_photos_lightbox" class="amb_more_puppies_photos_lightbox_css">
+                 <span class="amb_more_puppie_photos_close_cursor" onclick="close_more_puppies_photos()">&times;</span>
+                      <div class="amb_more_puppies_photos_lightbox_content_css">
+                            {@litter.litter_photos}{@litter.litter_photos._img}{@post_title}
+                     </div>
+             </div>
+     </div>
+</div>
